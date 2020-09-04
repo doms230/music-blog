@@ -18,4 +18,8 @@ router.get('/aiden-craig-sept-2020', function(req, res, next) {
   res.render('aiden-craig-sept-2020', { title: 'Express' });
 });
 
+router.get('/don-altae-sept-2020', function(req, res, next) {
+  res.render('don-altae-sept-2020', { title: 'Express' });
+});
+
 module.exports = router;

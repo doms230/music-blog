@@ -22,4 +22,8 @@ router.get('/don-altae-sept-2020', function(req, res, next) {
   res.render('don-altae-sept-2020', { title: 'Express' });
 });
 
+router.get('/overlord-bnjmnz-sept-2020', function(req, res, next) {
+  res.render('overlord-bnjmnz-sept-2020', { title: 'Express' });
+});
+
 module.exports = router;
